@@ -1,0 +1,13 @@
+java -jar C:\Development\Personal\Java\selenium-server-standalone-2.47.1.jar
+java -jar C:\Development\Personal\Java\selenium-server-standalone-2.47.1.jar -Dwebdriver.chrome.driver=C:\Development\Personal\Java\chromedriver.exe
+java -jar C:\Development\Personal\Java\selenium-server-standalone-2.53.0.jar
+java -jar C:\Development\Personal\Java\selenium-server-standalone-2.53.0.jar -Dwebdriver.chrome.driver=C:\Development\Personal\Java\chromedriver.exe
+
+http://es.slideshare.net/sethmcl/join-the-darkside-nightwatchjs
+
+node node_modules\nightwatch\bin\nightwatch --version
+node node_modules\nightwatch\bin\nightwatch
+node node_modules\nightwatch\bin\nightwatch --test tests/BasicGoogleTest.js
+node node_modules\nightwatch\bin\nightwatch --test tests/FileExistsTest1.js
+node node_modules\nightwatch\bin\nightwatch --test tests/FileExistsTest2.js
+node node_modules\nightwatch\bin\nightwatch --test tests/TwoStepsTest.js
