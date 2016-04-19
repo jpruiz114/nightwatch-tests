@@ -1,0 +1,32 @@
+{
+  "name": "nightwatchjs-tests",
+  "version": "1.0.0",
+  "description": "Initial tests with nightwatch.js",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "nightwatch": "*"
+  },
+  "devDependencies": {
+    "nightwatch": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpruiz114/nightwatch-tests.git"
+  },
+  "keywords": [
+    "nightwatch.js",
+    "october-cms"
+  ],
+  "author": "Jean Paul Ruiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpruiz114/nightwatch-tests/issues"
+  },
+  "homepage": "https://github.com/jpruiz114/nightwatch-tests#readme"
+}
