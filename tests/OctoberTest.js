@@ -4,7 +4,7 @@ module.exports = {
     'October admin login test' : function (browser) {
         browser
             .url('http://templates.local-chiromatrix.com/Chiropractic/General/buffalo/edit/site/editor/cms/')
-            .waitForElementVisible('body', 1000)
+            .waitForElementVisible('body', 10000)
             .setValue('input[type=text][name=login]', 'admin')
             .setValue('input[type=password][name=password]', 'admin')
             .click('button[type=submit]')
