@@ -4,7 +4,7 @@ module.exports = {
             .url('http://demosite.onlinechiro.com/chiropractic/general/eve/')
             .waitForElementVisible('body', 1000)
             .resizeWindow(768, 946)
-            .saveScreenshot('C:/Development/VP/IB/nightwatchjs-tests/screenshots/eve-768.png')
+            .saveScreenshot('C:/Development/VP/IB/nightwatchjs-tests/screenshots/chiropractic/eve-768.png')
             .end();
     },
 
@@ -13,7 +13,7 @@ module.exports = {
             .url('http://demosite.onlinechiro.com/chiropractic/general/tara/')
             .waitForElementVisible('body', 1000)
             .resizeWindow(768, 946)
-            .saveScreenshot('C:/Development/VP/IB/nightwatchjs-tests/screenshots/tara-768.png')
+            .saveScreenshot('C:/Development/VP/IB/nightwatchjs-tests/screenshots/chiropractic/tara-768.png')
             .end();
     },
 
@@ -22,7 +22,7 @@ module.exports = {
             .url('http://demosite.onlinechiro.com/chiropractic/general/isabella/')
             .waitForElementVisible('body', 1000)
             .resizeWindow(768, 946)
-            .saveScreenshot('C:/Development/VP/IB/nightwatchjs-tests/screenshots/isabella-768.png')
+            .saveScreenshot('C:/Development/VP/IB/nightwatchjs-tests/screenshots/chiropractic/isabella-768.png')
             .end();
     },
 
@@ -31,7 +31,7 @@ module.exports = {
             .url('http://demosite.onlinechiro.com/chiropractic/general/ellie/')
             .waitForElementVisible('body', 1000)
             .resizeWindow(768, 946)
-            .saveScreenshot('C:/Development/VP/IB/nightwatchjs-tests/screenshots/ellie-768.png')
+            .saveScreenshot('C:/Development/VP/IB/nightwatchjs-tests/screenshots/chiropractic/ellie-768.png')
             .end();
     },
 
@@ -40,7 +40,7 @@ module.exports = {
             .url('http://demosite.onlinechiro.com/chiropractic/general/anjali/')
             .waitForElementVisible('body', 1000)
             .resizeWindow(768, 946)
-            .saveScreenshot('C:/Development/VP/IB/nightwatchjs-tests/screenshots/anjali-768.png')
+            .saveScreenshot('C:/Development/VP/IB/nightwatchjs-tests/screenshots/chiropractic/anjali-768.png')
             .end();
     }
 };
