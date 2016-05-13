@@ -8,6 +8,7 @@ module.exports = {
             .click('button[name=btnG]')
             .pause(1000)
             .assert.containsText('#main', 'Night Watch')
+            .saveScreenshot('C:/Development/VP/IB/nightwatchjs-tests/screenshots/Screenshot.png')
             .end();
     }
 };
